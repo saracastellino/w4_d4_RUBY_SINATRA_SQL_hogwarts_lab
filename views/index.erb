@@ -1,0 +1,14 @@
+<h1>ALL THE STUDENTS!</h1>
+
+<% @students.each do |student| %>
+  <p>Name: <%= student.student_name %></p>
+  <p>House: <%= student.houses %></p>
+  <p>Age <%= student.age %></p>
+
+  <hr />
+  <!-- hr / #thats a black line -->
+<% end %>
+<!--
+<form method="post" action="/pizza_orders/delete_all">
+    <input type="submit" value="Delete everything">
+</form> -->

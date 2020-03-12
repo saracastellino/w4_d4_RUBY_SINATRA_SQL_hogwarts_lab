@@ -1,0 +1,22 @@
+<form method="post" action="/students">
+  <ul>
+    <li><label for="first-name">First name: </label>
+      <input type="text" name="first_name" id="first-name"></li>
+    <hr />
+    <li><label for="last-name">Second name: </label>
+      <input type="text" name="second_name" id="second-name"></li>
+    <hr />
+    <li><label for="student-select">Select a house: </label>
+      <select id="student-select" name="house">
+        <option value="Gryffindor">Gryffindor</option>
+        <option value="Ravenclaw">Ravenclaw</option>
+        <option value="Hufflepuff">Hufflepuff</option>
+        <option value="Slytherin">Slytherin</option>
+      </select>
+    <hr />
+    <li><label for="age">Age</label>
+      <input type="number" name="age" id="age"></li>
+    <hr />
+    <input type="submit" value="Enroll Student!">
+  </ul>
+</form>
